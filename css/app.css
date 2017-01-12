@@ -1,0 +1,70 @@
+body {
+  font-family: 'Georgia', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 4rem 0;
+}
+
+h2 {
+  font-size: 1.7em;
+  margin: 4rem 0 1.5rem 0;
+}
+
+h3 {
+  font-size: 1em;
+  margin-top: 2rem;
+}
+
+td {
+  font-size: .8em;
+}
+
+td {
+  width: 20%;
+  vertical-align: top;
+  padding: 1em 1em 1em 0;
+}
+
+
+tr {
+  border-bottom: 1px solid #eee;
+}
+
+tr:first-child {
+  border-bottom: 2px solid #ddd;
+}
+
+tr:first-child td {
+  vertical-align: bottom;
+}
+
+a.footnote-link {
+  border-bottom: 1px dotted #2199e8;
+}
+
+a.footnote-link.active {
+  font-weight: bold;
+  background: rgba(33, 153, 232, 0.12);
+}
+
+.footnote-expanded {
+  display: none;
+  font-size: .8em;
+  padding-left: 2rem;
+}
+
+.footnote-expanded img {
+  margin-bottom: 1rem;
+}
+
+a[href^="http://"]:after, 
+a[href^="https://"]:after {
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  margin: 0 0 0 5px;
+}
